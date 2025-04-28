@@ -37,6 +37,10 @@ git push -u origin test2025.4.28
 git checkout main              # 切换到 main
 git pull origin main           # 更新本地 main
 git merge your-current-branch  # 合并你的分支
+git status                     # 检查状态
+git add .                      # 添加所有更改
+git commit -m "更新文档和工具"   # 提交
+git pull origin main           # 拉取远程最新代码
 git push origin main           # 推送到远程
 
 ```
