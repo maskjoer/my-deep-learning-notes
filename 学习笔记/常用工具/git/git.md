@@ -44,3 +44,9 @@ git pull origin main           # 拉取远程最新代码
 git push origin main           # 推送到远程
 
 ```
+
+# 初始化仓库
+
+```
+git init
+```
