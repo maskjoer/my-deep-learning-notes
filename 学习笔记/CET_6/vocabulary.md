@@ -5,3 +5,6 @@
 - embrace 包含包括
 - conducive 有助于的
 - relentless 残酷的
+- an occasion for  一个....场合\机会
+- Yangtze River 长江
+-

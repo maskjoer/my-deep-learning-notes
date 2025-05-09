@@ -148,10 +148,10 @@ from MGDB_MDTA_GDFN_CVPR2022 import MGDB, GDFN, MDTA
 from LCA import LCA
 from torch.utils.tensorboard import SummaryWriter
 
-# writer_path = 'runs/test'
-# writer = SummaryWriter(writer_path)
-# if not os.path.exists(writer_path):
-#     os.makedirs(writer_path, exist_ok=True)
+writer_path = 'runs/test'
+writer = SummaryWriter(writer_path)
+if not os.path.exists(writer_path):
+    os.makedirs(writer_path, exist_ok=True)
 
 
 class EnhanceNet(nn.Module):
@@ -324,4 +324,4 @@ if __name__ == "__main__":
     out1, out2, _ = net(dummy_input)
     print(f"Output1 shape: {out1.shape}")
     print(f"Output2 shape: {out2.shape}")
-    # writer.close()
+    writer.close()
